@@ -50,3 +50,16 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+/* Mobile View */
+
+@media (max-width:600px) {
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li:first-child {
+        margin: 0;
+    }
+}
